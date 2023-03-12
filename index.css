@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.general {
+    background-color: beige;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    margin: 50px auto;
+    border: 1px solid beige;
+}
+
+.place {
+    background-color: black;
+    aspect-ratio: 1/1;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
